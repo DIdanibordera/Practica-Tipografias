@@ -1,0 +1,103 @@
+* { margin: 0; padding: 0; }
+
+@font-face {
+	font-family: "barrio";
+	src: url("../font/infantil/Barrio-Regular.ttf");
+}
+@font-face {
+	font-family: "luckiestguy";
+	src: url("../font/infantil/LuckiestGuy-Regular.ttf");
+}
+@font-face {
+	font-family: "ttg";
+	src: url("../font/infantil/ttg_by_westralinc-dbnnkt8.ttf");
+}
+
+header
+{
+	height: 200px;
+	background-color: #1450A0;
+}
+
+header h1 {
+	font-family: barrio;
+	font-size: 70px;
+}
+
+nav
+{
+	margin: 20px;
+}
+
+li
+{
+	font-family: luckiestguy;
+	display: inline;
+	margin: 2px 10px;
+}
+
+a
+{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: rgba(0,0,0,0.3);
+}
+
+main
+{
+	
+}
+
+h1
+{
+	font-family: 'Diplomata', cursive;
+	line-height: 100px;
+	margin-left: 20px;
+}
+
+h4
+{
+	font-size: 10px;
+}
+
+.dates
+{
+	font-family: 'Dancing Script', cursive;
+	font-size: 16px;
+	text-align: justify;
+}
+
+p.codigo
+{
+	background-color: rgba(0,0,100,0.3);
+	border: solid 1p;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	padding: 5px;
+}
+
+article
+{
+	margin: 10px;
+}
+
+footer
+{
+	color: white;
+	background-color: black;
+	height: 100px;
+	width: 100%;
+	line-height: 100px;
+}
+
+article h2 {
+	font-family: barrio;
+}
+
+article h3 {
+	font-family: ttg;
+}
